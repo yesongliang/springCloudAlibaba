@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.kedacom.tz.sh</groupId>
+		<artifactId>springCloudAlibaba</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>seata-example</artifactId>
+	<packaging>pom</packaging>
+	<modules>
+		<module>account-service</module>
+		<module>business-service</module>
+		<module>order-service</module>
+		<module>storage-service</module>
+	</modules>
+</project>
